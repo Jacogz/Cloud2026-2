@@ -1,0 +1,5 @@
+dcl_project = "digital-cafe-luna"
+dcl_prefix = "dcl"
+dcl_environment = "dev"
+dcl_owner_team = "team-04"
+dcl_managed_by = "terraform"
