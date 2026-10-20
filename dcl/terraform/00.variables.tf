@@ -27,3 +27,14 @@ variable "dcl_managed_by" {
   type        = string
   default     = "terraform"
 }
+
+variable "dcl_ssh_allowed_cidr" {
+  description = "Team's current public IPv4 /32 allowed to SSH into dcl-dev-ec2-public"
+  type        = string
+}
+
+variable "dcl_aws_profile" {
+  description = "AWS profile to use for Terraform"
+  type        = string
+  default     = "default"
+}

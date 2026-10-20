@@ -1,6 +1,6 @@
 provider "aws" {
     region = "us-east-1"
-    profile = "personal"
+    profile = var.dcl_aws_profile
 }
 
 data "aws_caller_identity" "current" {}
